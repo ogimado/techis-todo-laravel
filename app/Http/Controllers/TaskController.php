@@ -9,6 +9,14 @@ use App\Repositories\TaskRepository;
 class TaskController extends Controller
 {
     /**
+     * タスクリポジトリ
+     *
+     * @var TaskRepository
+     */
+    protected $tasks;
+
+
+    /**
      * コンストラクタ
      *
      * @return void
